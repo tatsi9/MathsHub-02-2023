@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav {
+    /* border: 2px dotted black; */
+    /* width: max-content; */
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    padding: 0 30px;
+    
+}
+
+nav > a:hover {
+    color: lightgoldenrodyellow;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.my_game {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.my-game > * {
+    text-align: center;
+}
+
+.my_game input, .my_game button {
+    border: none;
+    padding: 5px;
+    min-height: 30px;
+}
+
+.my_game button {
+    width: max-content;
+    background-color: rgb(194, 237, 194);
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.my-game input {
+    background-color: lightgrey;
+    outline: none;
+}
+
+.chosen_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chosen_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+
+}
+
+.chosen_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efdada;
+}
+
+.chosen_element {
+    border: 3px solid black;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+}
+
+.posts_block-container > * {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+
+.about_us {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+}
+
+.about_us img {
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    padding-bottom: 20px;
+}
+
+.about_us-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us-description * {
+    padding: 5px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.name {
+    color: red;
+}
+
+#skill {
+    color:green;
+}
+
+h1 {
+    padding: 0;
+    margin: 30px;
+    text-align:center;
+    line-height: 40px;
+}
+
+h2 {
+    text-align:center;
+}
+
